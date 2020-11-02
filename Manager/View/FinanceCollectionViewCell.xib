@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FinanceCollectionViewCell" customModule="Manager" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="213" height="187"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="213" height="187"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBV-Ad-xQ6">
+                        <rect key="frame" x="10" y="5" width="193" height="27.5"/>
+                        <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="20"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f7z-s3-uME">
+                        <rect key="frame" x="10" y="80" width="193" height="27.5"/>
+                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" name="Color"/>
+            <constraints>
+                <constraint firstItem="f7z-s3-uME" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="53n-Uu-GSU"/>
+                <constraint firstItem="mBV-Ad-xQ6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="Fxp-q9-EFO"/>
+                <constraint firstItem="mBV-Ad-xQ6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="G7I-Uo-UkX"/>
+                <constraint firstItem="f7z-s3-uME" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="M2n-HL-Ry4"/>
+                <constraint firstItem="f7z-s3-uME" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="pil-OO-6vZ"/>
+                <constraint firstAttribute="trailing" secondItem="mBV-Ad-xQ6" secondAttribute="trailing" constant="10" id="pp1-ic-PXE"/>
+                <constraint firstAttribute="trailing" secondItem="f7z-s3-uME" secondAttribute="trailing" constant="10" id="wSm-hL-tnu"/>
+            </constraints>
+            <size key="customSize" width="213" height="187"/>
+            <connections>
+                <outlet property="categoryLbl" destination="mBV-Ad-xQ6" id="En7-b3-fhR"/>
+                <outlet property="spentLbl" destination="f7z-s3-uME" id="Y68-yx-4Vq"/>
+            </connections>
+            <point key="canvasLocation" x="-25.362318840579711" y="60.602678571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Color">
+            <color red="0.43137254901960786" green="0.57647058823529407" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

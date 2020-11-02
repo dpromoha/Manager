@@ -1,4 +1,4 @@
-# manager
+# Manager
 
 Just imagine, perfect minimalistic app, that allows you to plan, set everyday goals, count money, and even help to focus on the most difficult challenges. Sounds good? I think so. 
 You can get all of this after registration! Just use your email, think of a complex password and the whole **"Manager"** is yours. Privacy is one of the strong part of this app because all you can add about yourself are name and age. Don`t like a **"Manager"** anymore? Delete your account and personal information will be deleted. 
